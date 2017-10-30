@@ -1,1 +1,6 @@
-// TODO Implement spacify module
+/* eslint-disable no-extend-native */
+Object.defineProperty(String.prototype, 'spacify', {
+    value() {
+        return [...this].join(' ');
+    }
+});
