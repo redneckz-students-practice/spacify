@@ -24,7 +24,7 @@ describe('spacify', () => {
     });
 
     // Low-level requirement (remove 'skip' to enable it)
-    it.skip('should be implemented by means of \'join\' function', () => {
+    it('should be implemented by means of \'join\' function', () => {
         expect('foo'.spacify.toString()).to.contain('.join(');
     });
 });
