@@ -1,4 +1,4 @@
 /* eslint-disable no-extend-native */
-Object.defineProperty(String.prototype, 'spacify', {
-    value() { return this.split('').join(' '); }
-});
+String.prototype.spacify = function replace() {
+    return this.split('').join(' ');
+};
